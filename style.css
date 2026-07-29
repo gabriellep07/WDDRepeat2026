@@ -5,6 +5,38 @@ body{
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 }
+
 p{
 	text-align:center;
+}
+
+/* navbar colours */
+
+nav{
+	background-color: sienna;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	color: white;
+}
+
+/* changing the colour of the hyperlinks to fit with my colour scheme. link = normal link, visited = visited link, active = user clicking on link, and hover = when mouse is over link */
+
+/* stands out */
+a:link {
+	color: floralwhite;
+}
+
+/* blends in more than floralwhite to the navbar background */
+a:visited {
+	color: tan;
+}
+
+/* light purple colour, closer to regular clicked links (purple) */
+a:active {
+	color: thistle;
+}
+
+/* lighter than floralwhite to look like it lights up befre you click on it */
+a:hover {
+	color: snow: ;
 }
