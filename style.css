@@ -17,6 +17,7 @@ nav{
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	color: white;
+	padding: 10px;
 }
 
 /* changing the colour of the hyperlinks to fit with my colour scheme. link = normal link, visited = visited link, active = user clicking on link, and hover = when mouse is over link */
