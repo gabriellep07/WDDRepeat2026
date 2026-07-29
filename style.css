@@ -1,17 +1,28 @@
 /* This is a CSS comment */
 
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background-color:papayawhip;
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
+	align-items: center;
 }
 
+/* for focus: --> when user presses tab, a blue outline will show up and let them navigate the website's clickable links and buttons etc. with the tab key instead of a mouse. accessibility feature  */
+:focus {
+  outline: 3px solid blue;
+}
+
+/* text aligns to center in paragraphs */
 p{
 	text-align:center;
 }
 
 /* navbar colours */
-
 nav{
 	background-color: sienna;
 	font-family: Verdana, Geneva, sans-serif;
@@ -25,22 +36,26 @@ nav{
 /* stands out */
 a:link {
 	color: white;
+	text-decoration: underline;
 }
 
 a:visited {
 	color: white;
+	text-decoration: underline;
 }
 
 /* light purple colour, closer to regular clicked links (purple) */
 a:active {
 	color: thistle;
+	text-decoration: underline;
 }
 
 a:hover {
 	color: snow: ;
+	text-decoration: underline;
 }
 
-/* all divs formatted the same for now */
+/* all formatted the same */
 
 div {
 	background-color: tan; 
@@ -48,7 +63,35 @@ div {
 	text-shadow: 
 	height: 50px;
 	width: max-width;
-	margin-bottom: 5px;
+	margin-bottom: 5px; /* 5px margin at top and bottom to keep a slight gap between paragraphs / writing */
 	margin-top: 5px;
+	border: 2px solid black;
 }
 
+footer {
+    position: fixed; /* footer won't move from bottom of screen now it's fixed in place */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: sienna;
+    text-align: center;
+}
+
+.container {
+	margin: 100px auto;
+	width: 75%;
+}
+
+/* targetting specifically text that's h2 (titles of paragraphs) */ 
+
+.text h2{
+	font-size: 35px;
+	padding: 4px;
+}
+
+img{
+	max-width: 340px;
+	float: left;
+	border: 4px solid black;
+	margin-right: 20px;
+}
