@@ -41,3 +41,12 @@ a:active {
 a:hover {
 	color: snow: ;
 }
+
+div {
+	background-color: tan; 
+	text-align: center;
+	height: 50px;
+	width: max-width;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
